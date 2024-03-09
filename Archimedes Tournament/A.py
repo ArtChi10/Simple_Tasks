@@ -1,0 +1,7 @@
+n = int(input())
+m = int(input())
+maxN = max(n, m)
+minN = min(n, m)
+maxN2 = max(maxN-1, minN)
+minN2 = min(maxN-1, minN)
+print((maxN2-1)*minN2)
